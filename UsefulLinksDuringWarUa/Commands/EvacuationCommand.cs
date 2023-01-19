@@ -1,6 +1,7 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using UsefulLinksDuringWarUa.Entities;
 using UsefulLinksDuringWarUa.Services;
 
 namespace UsefulLinksDuringWarUa.Commands
@@ -38,7 +39,9 @@ namespace UsefulLinksDuringWarUa.Commands
             new UrlLink("https://apple.co/3K6v9fD", "Повітряна тривога - App Store"),
 
             new UrlLink("@dogs_adopt_kiev",
-                "Притулок для тварин, чиї господарі зараз не можуть про них піклуватися - @dogs_adopt_kiev")
+                "Притулок для тварин, чиї господарі зараз не можуть про них піклуватися - @dogs_adopt_kiev"),
+            new UrlLink("https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_uk",
+                "Офіційна інформація про права українських біженців у ЄС", ", підготовку до виїзду та подальші пересування в межах країн Європейського союзу.")
         };
 
         public EvacuationCommand(

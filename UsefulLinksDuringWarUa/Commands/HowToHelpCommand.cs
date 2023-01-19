@@ -1,6 +1,7 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using UsefulLinksDuringWarUa.Entities;
 using UsefulLinksDuringWarUa.Services;
 
 namespace UsefulLinksDuringWarUa.Commands

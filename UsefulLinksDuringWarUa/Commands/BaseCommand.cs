@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using Telegram.Bot.Types;
+using UsefulLinksDuringWarUa.Entities;
 
 namespace UsefulLinksDuringWarUa.Commands
 {
